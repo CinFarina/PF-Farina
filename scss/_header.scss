@@ -1,0 +1,116 @@
+/*Inicio*/
+
+.bienvenidos {
+    background: url(../images/Fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar-fixed-top {
+    background: $color-negro;
+}
+
+.navbar-light .navbar-brand {
+    color: $color-blanco;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+    &:focus,
+    &:hover {
+        color: $color-blanco;
+}
+}
+
+.navbar-toggler {
+    font-size: 1.6rem;
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav {
+    .nav-link {
+        color: $color-blanco;
+        text-align: center;
+        padding: .4rem;
+        text-transform: uppercase;
+    }
+
+    .open>.nav-link {
+        color: $color-blanco;
+        background: $color-azul;
+
+        &:focus,
+        &:hover {
+            color: $color-blanco;
+            background: $color-azul;
+        }
+    }
+
+    .active>.nav-link {
+        color: $color-blanco;
+        background:$color-azul;
+
+        &:focus,
+        &:hover {
+            color: $color-blanco;
+            background: $color-azul;
+        }
+    }
+
+    .nav-link {
+        &.open {
+            color: $color-blanco;
+            background: $color-azul;
+
+            &:focus,
+            &:hover {
+                color: $color-blanco;
+                background: $color-azul;
+            }
+        }
+
+        &.active {
+            color: $color-blanco;
+            background: $color-azul;
+
+            &:focus,
+            &:hover {
+                color: $color-blanco;
+                background: $color-azul;
+            }
+        }
+
+        &:focus,
+        &:hover {
+            color: $color-blanco;
+            background: $color-azul;
+        }
+    }
+}
+
+#menuprincipal {
+    clear: both;
+}
+
+.texto-bienvenido {
+    color: $color-blanco;
+    margin-top: 9rem;
+
+    span {
+        color:$color-azul;
+    }
+}
+
+.btn-primary {
+    background-color: $color-azul;
+    border-color:$color-azul;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    text-transform: uppercase;
+
+    &:hover {
+        color:$color-blanco;
+        background-color: $color-negro;
+        border-color: $color-negro;
+    }
+}

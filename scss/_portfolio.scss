@@ -1,0 +1,30 @@
+/*Portfolio*/
+
+.ultimos-proyectos {
+    background: $color-negro;
+    color: #fff;
+
+    h2 {
+        color: $color-azul;
+    }
+
+    a {
+        display: block;
+        overflow: hidden;
+        margin-bottom: 1.5rem;
+    }
+
+    img {
+        object-fit: cover;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        min-width: 100%;
+    }
+
+    a:hover img {
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+  
